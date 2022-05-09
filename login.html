@@ -1,0 +1,83 @@
+<html>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Oleo+Script+Swash+Caps&display=swap');
+		*
+		{
+			margin: 0%;
+		}
+		body
+		{
+			background: url("login.jpg");
+			height: 100%;
+			width: 90%;
+			background-size: cover;
+		}
+		input
+		{
+			padding: 2%;
+			border-radius: 30px;
+			color: blueviolet;
+		}
+		button{
+			padding-left: 10%;
+		}
+		.login
+		{  
+			height: 60%;
+			width: 50%;
+			padding-top: 18%;
+			padding-left: 60%;
+		}
+		form{
+			padding-top: 2%;
+			border: 2px solid white;
+			box-shadow: 10px;
+			border-radius: 20px;
+			border-color: shadow;
+			width: 55%;
+			height: 60%;
+			display: inline-block;
+		}
+		.button{
+			background-color:orangered;
+  			color: white;
+			border-style: inherit;
+  			cursor: pointer;
+			padding: 2%;
+			border-radius: 20px;
+  			width: 50%;
+		}
+		.button:hover
+		{
+			opacity: 0.8;
+		}
+		label{
+			font-family: 'Oleo Script Swash Caps', cursive;	
+			padding: 10px;
+			font-size: large;
+			color:white;
+		}
+		.heading{
+			font-family: 'Oleo Script Swash Caps', cursive;	
+			font-size: 250%;
+			padding: 30%;
+			padding-left: 35%;
+
+		}	
+	</style>
+	<body>
+		<div class = "page">
+
+			<div class = "login">
+				<form>
+					<label class="heading">Login</label><br><br>
+					<label> Email </label>
+					<input type = "text" placeholder="Enter Email Id" id = "email" class = "email"><br><br>
+					<label> Password </label>
+					<input type = "text" placeholder="Enter Password" id = "pswrd" class="password"><br><br>
+					<button type = "button" class = "button" id = "submit"> Login </button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
